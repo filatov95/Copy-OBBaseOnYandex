@@ -32,6 +32,6 @@ $YandexCloudDeleteObject | % {
         Remove-Item $FileOnYandexCloud
         Write-Host "$FileOnYandexCloud has been deleted" -ForegroundColor Green
     } else {
-        Write-Host "$FileOnYandexCloud.Name not too old to delete" -ForegroundColor Yellow
+        Write-Host "$FileOnYandexCloud not too old to delete" -ForegroundColor Yellow
     }
 }
